@@ -32,7 +32,7 @@ All active projects live under `/Users/manoj/`:
 cd /Users/manoj/webapp
 python3 app.py
 ```
-Runs on `http://localhost:5000` by default (Flask debug mode enabled).
+Runs on `http://localhost:5001` (port 5000 is taken by macOS AirPlay Receiver).
 
 **Structure:**
 - `app.py` — Flask routes and application entry point
