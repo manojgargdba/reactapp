@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Developer
+
+**Manoj Garg** — manojgargdba@gmail.com — https://github.com/manojgargdba
+
 ## Environment
 
 - **OS**: macOS (Darwin 25.4.0)
