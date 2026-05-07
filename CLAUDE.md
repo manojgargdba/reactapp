@@ -20,7 +20,7 @@ All active projects live under `/Users/manoj/`:
 | Project | Path | Stack | GitHub |
 |---------|------|-------|--------|
 | Flask webapp | `/Users/manoj/webapp/` | Python, Flask, Jinja2 templates | https://github.com/manojgargdba/webapp |
-| Node/Express app | `/Users/manoj/reactapp/` | Node.js, Express 5, MySQL2, React 19 | https://github.com/manojgargdba/recatapp |
+| Node/Express app | `/Users/manoj/reactapp/` | Node.js, Express 5, MySQL2, React 19 | https://github.com/manojgargdba/reactapp |
 | Standalone scripts | `/Users/manoj/` | Python, PySpark | — |
 
 ---
