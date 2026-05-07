@@ -11,13 +11,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Projects
 
-All active projects live under `/Users/manoj/`. GitHub: https://github.com/manojgargdba/recatapp
+All active projects live under `/Users/manoj/`:
 
-| Project | Path | Stack |
-|---------|------|-------|
-| Flask webapp | `/Users/manoj/webapp/` | Python, Flask, Jinja2 templates |
-| Node/Express app | `/Users/manoj/reactapp/` | Node.js, Express 5, MySQL2, React 19 |
-| Standalone scripts | `/Users/manoj/` | Python, PySpark |
+| Project | Path | Stack | GitHub |
+|---------|------|-------|--------|
+| Flask webapp | `/Users/manoj/webapp/` | Python, Flask, Jinja2 templates | https://github.com/manojgargdba/webapp |
+| Node/Express app | `/Users/manoj/reactapp/` | Node.js, Express 5, MySQL2, React 19 | https://github.com/manojgargdba/recatapp |
+| Standalone scripts | `/Users/manoj/` | Python, PySpark | — |
 
 ---
 
@@ -69,5 +69,4 @@ MySQL credentials are configured in `src/db.js` — update `host`, `user`, `pass
 ## Architecture Notes
 
 - `reactapp/server.js` is the Express backend (port 3001); `reactapp/src/App.js` is the React frontend. `package.json` proxies `/submit` from the CRA dev server (port 3000) to the Express server (port 3001).
-- `webapp/app.py` has two `Flask(__name__)` blocks concatenated in the same file; only the second block (registration form route) is actually used.
 - PySpark scripts (`First_pyspark.py`, `hello_pyspark.py`) at `/Users/manoj/` use the local `pyspark-env` virtualenv at `/Users/manoj/pyspark-env/`.
